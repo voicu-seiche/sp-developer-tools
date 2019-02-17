@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
+# configurations
+./sp-viewer/config/sp-config.js
+
 # Other
 *.orig
