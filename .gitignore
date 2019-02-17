@@ -61,7 +61,7 @@ typings/
 .next
 
 # configurations
-./sp-viewer/config/sp-config.js
+sp-viewer/config/sp-config.js
 
 # Other
 *.orig
