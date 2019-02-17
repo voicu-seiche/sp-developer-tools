@@ -11,7 +11,7 @@
     };
 
     var spsaveCoreOption = {
-        siteUrl: spConfig.site,
+        siteUrl: spConfig.siteUrl,
         folder: spConfig.folder,
         checkin: true,
         checkinType: 1,
