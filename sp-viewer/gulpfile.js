@@ -3,11 +3,16 @@
     var gulp = require("gulp");
     var spsave = require("gulp-spsave");
 
-    var spsaveCredential = require("./settings.js");
+    var spConfig = require("./config/sp-config.js");
+
+    var spsaveCredential = {
+        username: spConfig.username,
+        password: spConfig.password
+    };
 
     var spsaveCoreOption = {
-        siteUrl: "https://svbpfa.sharepoint.com/sp-viewer",
-        folder: "SiteAssets/sp-viewer",
+        siteUrl: spConfig.site,
+        folder: spConfig.folder,
         checkin: true,
         checkinType: 1,
         flatten: false,
@@ -19,6 +24,6 @@
     });
 
     gulp.task("watch", function(){
-        gulp.watch(["./Scripts/**/*.js"], ["sp-upload"]);
+        gulp.watch(["./src/**/*"], ["sp-upload"]);
     });
 })();
