@@ -1,0 +1,26 @@
+{
+    "name": "sp-viewer",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/voicu-seiche/sp-developer-tools.git"
+    },
+    "keywords": [
+        "SP",
+        "SP Viewer",
+        "SharePoint",
+        "SharePoint Viewer"
+    ],
+    "author": "Voicu Seiche",
+    "license": "MIT",
+    "homepage": "https://github.com/voicu-seiche/sp-developer-tools#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-spsave": "^3.1.1"
+    }
+}
