@@ -10,10 +10,10 @@ and add it to your projects.
 
 These are the available namespaces:
 ```
-* SPApi
-* SPApi.Lists
-* SPApi.ListItems
-* SPApi.Utils
+SPApi
+SPApi.Lists
+SPApi.ListItems
+SPApi.Utils
 ```
 and these are the available methods
 ```
