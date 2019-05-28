@@ -3,8 +3,8 @@ This tool intends to help you with calling the SharePoint REST Api endpoints.
 ### Usage
 Download one of the distribution files:
 
-* [sp-api-helper.js](./sp-api-helper/dist/sp-api-helper.js)
-* [sp-api-helper.min.js](./sp-api-helper/dist/sp-api-helper.min.js)
+* [sp-api-helper.js](./dist/sp-api-helper.js)
+* [sp-api-helper.min.js](./dist/sp-api-helper.min.js)
 
 and add it to your projects.
 
